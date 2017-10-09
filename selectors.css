@@ -1,0 +1,72 @@
+/*Question One */
+
+header {
+    border: 1px solid goldenrod;
+}
+
+/*Question Two */
+
+.problem-two {
+    display: flex;
+    list-style: none;
+    
+    }
+
+
+.problem-two > a {
+        padding-left: 10px;
+    }
+
+/*Question Three*/
+
+.disabled {
+    color: grey;
+}
+
+a + .disabled {
+    color: purple;
+}
+
+/* Question Four */
+.active {
+    color: yellow;
+}
+
+/*Question Eight and Nine */
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+/*Question Ten and Eleven*/
+
+.red + h4 {
+    background-color: red; 
+}
+
+.blue + h4 {
+    background-color: blue;
+}
+
+/*Question Twelve */
+
+.grandparent > h4 {
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+
+/*Question Thirteen */
+
+.promo {
+    font-weight: bold; 
+    color: gold;
+}
+
+/*Question Fourteen */
+
+span > input {
+    font-size: 25px;
+}
